@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+:root{
+    --color-textos:#606060;
+    --color-hero: ##198754;
+    --color-negro: #000;
+    --fondo-header:#e9dcd9;
+    --color-menu: #d2d0d0;
+    --color-menu-hover: #218fe6;
+    --color-titulos: #303030;
+    --color-azul: #218fe6;
+    --fondo-gris: #f4f4f4;
+    --color-letra-gris: #888;
+    --color-subtitulo: #777;
+    --fondo-footer-columns: #f8e8b2;
+    --fondo-footer-copy: #3a3a3a;
+    --color-footer: #7a7874;
+
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;    
+    font-size: 17px;
+    color: var(--color-textos);
+    line-height: 1.7;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--color-titulos);
+}
+
+
+header .bg-light{
+    background-color: transparent !important;
+}
+
+header img{
+    width: 150px;
+}
+
+#hero{
+    background-image: url(../img/heroooooo.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+#hero h6{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#hero h1{
+    color: #fff;
+    font-size: 60px;
+}
+
+#hero p{
+    font-size: 20px;
+    color: #eee;
+    line-height: 1.7;
+}
+
+#hero .btn{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 15px 20px;
+}
+
+#hero .btn-dark{
+    background-color: transparent;
+    border: 2px solid #ffc75e;
+}
+
+#hero .btn-dark:hover{
+    background-color: #fff;
+    color: var(--fondo-footer-columns);
+}
+
+#hero .btn-light{
+    background-color: #ffc75e;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.40);
+    padding: 10% 0;
+}
+
+.section{
+    padding: 5% 0;
+}
+
+.titulo{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.subtitulo{
+    font-size: 18px;
+    color: var(--color-subtitulo);
+    font-weight: 400;
+    margin-bottom: 20px; 
+}
+
+#smoothie{
+    background-color: seagreen;
+}
+
+#smoothie .titulo{
+    margin-top: 25%;
+}
+
+#smoothie ul i{
+    color: var(--color-azul)
+}
+
+#smoothie ul{
+    font-size: 15px;
+}
+
+#smoothie.section{
+    padding-bottom: 0;
+}
+
+#icons{
+    background-color: #eae3cc;
+    text-align: center;
+    font-size: 14px;
+    color: #be8559;
+}
+
+#icons h3{
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+#icons i{
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border: 1px solid #be8559;
+    border-radius: 100%;
+    border: 1px solid #be8559;
+    
+}
+
+#icons i:hover{
+    background-color: #d1850a;
+    color: #f3eee6;
+}
+
+#counter{
+    background-image: url(../img/imagen_counter.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+
+#counter .overlay{
+    background-color: rgba(234, 142, 137, 0.307);
+    padding: 7% 0;
+}
+
+#counter i{
+    font-size: 50px;
+}
+
+#counter h3{
+    font-size: 50px;
+    color: #fff;
+    margin: 15px 0;
+}
+
+#counter p{
+    font-size: 18px;
+}
+
+#works .card{
+    border-radius: 0;
+    border-color: #eee;
+}
+#works .card h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+#works .card p{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-letra-gris);
+    letter-spacing: 0.3px;
+}
+
+.btn-primary{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 20px 60px;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary:hover{
+    background-color: var(--color-titulos);
+    border-color: var(--color-titulos);
+}
+
+#footer-columns{
+    background-color: var(--fondo-footer-columns);
+    color: var(--color-footer);
+    padding: 60px 0;
+    font-size: 14px;
+}
+
+#footer-columns img{
+    width: 180px;
+    margin-bottom: 30px;
+}
+
+#footer-columns h4{
+    color: #777;
+    font-size: 16px;
+}
+
+#footer-copy{
+    background-color: var(--fondo-footer-copy);
+    color: var(--color-footer);
+    padding: 20px 0;
+    font-size: 13px ;
+}
+
+#title-page{
+    background-color: var(--fondo-title-page);
+    padding: 40px 0;
+    border-top: 1px solid #eee;
+}
+
+#title-page h1{
+    font-size: 25px;
+}
